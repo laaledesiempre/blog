@@ -1,0 +1,15 @@
+.number-animation{
+    height: 1rem;
+    width: 200vw;
+    position: absolute;
+    top: 50%;
+    margin-top: -381px;
+    overflow: hidden;
+  }
+  @keyframes infinite-horizontal-scroll{
+    from {margin-left: 0%;
+  }
+    to{
+      margin-left: -100%;
+    }
+  } 
