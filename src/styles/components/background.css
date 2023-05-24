@@ -1,0 +1,18 @@
+.background-characters{
+    margin-inline-start: 1vw;
+    margin-block-start:1rem;
+    font-size: 7vw;
+    color:var(--grey-keys);
+    opacity: 0.2;
+    z-index: -4;
+    position: absolute;
+}
+.background-characters::before{
+    content:">";
+    font-size: 7vw;
+}
+.background-characters::after{
+    content:"|";
+    font-size: 7vw;
+    animation: 700ms titilandum linear infinite;
+}

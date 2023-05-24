@@ -1,0 +1,41 @@
+.logo-div{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    margin: 2rem auto 0;
+    width:fit-content;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    column-gap: 0.5rem;
+}
+.title{
+    font-size:2.7em;
+    grid-area: 1/1/2/3;
+    color:var(--pseudo-white);
+    width: fit-content;
+}
+.sub-title{
+    grid-area: 2/1/3/2;
+    font-size: 2em;
+    color:var(--pseudo-white);
+    width: fit-content;
+
+}
+.github-container{
+    grid-area: 2/2/3/3;
+    color:var(--pseudo-white);
+    width: fit-content;
+    font-size: 1.5em;
+    border: 3px solid var(--pseudo-white);
+    border-radius:0.6em;
+    padding: 0.2em 0.7em;
+    margin:0.2em;
+}
+.ale-name{
+    font-size:5em;
+    grid-area: 1/3/3/4;
+    color:var(--pseudo-white);
+    text-decoration:underline var(--pseudo-white);
+    -moz-text-decoration-style: double;
+    text-decoration-style: double;
+}

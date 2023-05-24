@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --darker-background: #0d1b2a;
+    --grey-keys: #415a77;
+    --pseudo-white: #e0e1dd;
+}
+@keyframes titilandum{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+
+}
+main{
+    width:80%
+}
+body{
+    background-color: var(--darker-background);
+}
+
+
