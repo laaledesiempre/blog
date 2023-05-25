@@ -1,0 +1,28 @@
+.footer-wrapper{
+    background-color: var(--darker-background-transparent);
+    width: 70%;
+    margin: 3rem auto;
+    border: 2px solid var(--pseudo-white);
+    padding:2rem;
+}
+.footer-thanks{
+    font-size: 3rem;
+    color:var(--pseudo-white);
+    margin-block-end: 2rem;
+}
+.footer-thanks::before{
+    content:">";
+    margin-inline-end: 1rem;
+}
+.footer-text{
+    color:var(--pseudo-white);
+    margin-block-end: 2rem;
+}
+.media-wrapper{
+    list-style-type: none;
+
+}
+.media-account{
+    margin-inline-start: 2rem;
+    color: var(--pseudo-white);
+}

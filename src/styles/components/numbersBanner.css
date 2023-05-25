@@ -1,10 +1,10 @@
 .number-animation{
-    height: 1rem;
+    margin-block-start: 2rem;
+    height: 3rem;
     width: 200vw;
-    position: absolute;
-    top: 50%;
-    margin-top: -381px;
     overflow: hidden;
+    color:var(--pseudo-white);
+    font-size:3rem;
   }
   @keyframes infinite-horizontal-scroll{
     from {margin-left: 0%;
