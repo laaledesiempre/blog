@@ -1,15 +1,12 @@
-.number-animation{
-    margin-block-start: 2rem;
-    height: 3rem;
-    width: 200vw;
-    overflow: hidden;
-    color:var(--pseudo-white);
-    font-size:3rem;
-  }
-  @keyframes infinite-horizontal-scroll{
-    from {margin-left: 0%;
-  }
-    to{
-      margin-left: -100%;
-    }
-  } 
+.numbers-banner-item{
+  width:200vw;
+  animation: translateinfinite 6s linear infinite
+}
+
+.bannerwrapper{
+  display:flex;
+  width:200vw;
+}
+@keyframes translateinfinite {
+	100% { transform:translateX(-100vw);  }
+}

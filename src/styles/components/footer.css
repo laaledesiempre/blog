@@ -26,3 +26,30 @@
     margin-inline-start: 2rem;
     color: var(--pseudo-white);
 }
+.footer-background{
+    width:200vw;
+}
+.footer-background-item{
+    width:200vw;
+}
+.footer-layer1-item{
+    animation: translateinfinite 6s linear infinite;
+  }
+.footer-layer2-item{
+    animation: translateinfinite 9s linear infinite;
+}
+.footer-layer3-item{
+    animation: translateinfinite 12s linear infinite;
+}
+.footer-layer1{
+    display:flex;
+    width:200vw;
+}
+.footer-layer2{
+    display:flex;
+    width:200vw;
+}
+.footer-layer3{
+    display:flex;
+    width:200vw;
+}
