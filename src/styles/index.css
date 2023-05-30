@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 :root{
+    --darkest-background: #041323;
     --darker-background: #0d1b2a;
+    --darker-background-transparent: rgba(13, 27, 42,0.8);
     --grey-keys: #415a77;
     --pseudo-white: #e0e1dd;
 }

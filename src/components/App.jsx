@@ -3,6 +3,7 @@ import { Header } from "./main/Header.jsx"
 import {Background} from "./main/Background.jsx"
 import {NumbersBanner} from "./main/NumbersBanner.jsx"
 import {Footer} from "./main/Footer.jsx"
+import { Article } from "../pages/Article.jsx"
 
 export const App = () => {
   return (
@@ -10,7 +11,7 @@ export const App = () => {
     <Background/>
     <Header/>
     <NumbersBanner/>
-    <Footer/>
+    <Article/>
     </>
   )
 }

@@ -5,9 +5,9 @@ export const Footer = () => {
     <>
       <footer>
         <div className="footer-background">
-          <div className="footer-layer1">
-          <svg version="1.1" className="footer-layer1-item footer-background-item" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 547 446" enable-background="new 0 0 547 446" xml:space="preserve">
+{  /*        <div className="footer-layer1">
+          <svg version="1.1" className="footer-layer1-item footer-background-item" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 547 446" enable-background="new 0 0 547 446" xmlSpace="preserve">
 <g>
 	<path fill="#FFFFFF" d="M374.059,21.199v25.409h6.16c0.428,0,0.734,0.082,0.919,0.246c0.186,0.165,0.279,0.382,0.279,0.652
 		c0,0.257-0.094,0.472-0.279,0.641c-0.185,0.173-0.491,0.258-0.919,0.258h-14.115c-0.428,0-0.735-0.085-0.92-0.258
@@ -251,8 +251,8 @@ export const Footer = () => {
 		c0.555,0.35,1.181,0.525,1.881,0.525c1.359,0,2.428-0.703,3.205-2.105c0.776-1.404,1.165-3.039,1.165-4.903V418.875z"/>
 </g>
 </svg>
-     <svg version="1.1" className="footer-layer1-item footer-background-item" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 547 446" enable-background="new 0 0 547 446" xml:space="preserve">
+     <svg version="1.1" className="footer-layer1-item footer-background-item" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 547 446" enable-background="new 0 0 547 446" xmlSpace="preserve">
 <g>
 	<path fill="#FFFFFF" d="M374.059,21.199v25.409h6.16c0.428,0,0.734,0.082,0.919,0.246c0.186,0.165,0.279,0.382,0.279,0.652
 		c0,0.257-0.094,0.472-0.279,0.641c-0.185,0.173-0.491,0.258-0.919,0.258h-14.115c-0.428,0-0.735-0.085-0.92-0.258
@@ -496,10 +496,10 @@ export const Footer = () => {
 		c0.555,0.35,1.181,0.525,1.881,0.525c1.359,0,2.428-0.703,3.205-2.105c0.776-1.404,1.165-3.039,1.165-4.903V418.875z"/>
 </g>
 </svg>
-          </div>
+  </div>*/}
           <div className="footer-layer2">
-          <svg version="1.1" className="footer-layer2-item footer-background-item" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	opacity="0.5" viewBox="0 0 943 446" enable-background="new 0 0 943 446" xml:space="preserve">
+          <svg version="1.1" className="footer-layer2-item footer-background-item" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	opacity="0.5" viewBox="0 0 943 446" enable-background="new 0 0 943 446" xmlSpace="preserve">
 <path fill="#FFFFFF" d="M556.438,49.896v21.528h5.219c0.362,0,0.622,0.069,0.779,0.208c0.156,0.14,0.236,0.324,0.236,0.553
 	c0,0.218-0.08,0.399-0.236,0.543c-0.157,0.146-0.417,0.219-0.779,0.219h-11.959c-0.363,0-0.623-0.072-0.78-0.219
 	c-0.157-0.144-0.235-0.325-0.235-0.543c0-0.229,0.078-0.413,0.235-0.553c0.157-0.139,0.417-0.208,0.78-0.208h5.218V51.998
@@ -1233,8 +1233,8 @@ export const Footer = () => {
 	c0,0.979,0.138,1.894,0.413,2.74c0.275,0.848,0.591,1.523,0.945,2.025c0.196,0.279,0.46,0.522,0.789,0.728
 	c0.471,0.297,1.001,0.445,1.593,0.445c1.153,0,2.059-0.596,2.717-1.784c0.658-1.189,0.987-2.574,0.987-4.154V407.836z"/>
 </svg>
-    <svg version="1.1" className="footer-layer2-item footer-background-item" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	opacity="0.5" viewBox="0 0 943 446" enable-background="new 0 0 943 446" xml:space="preserve">
+    <svg version="1.1" className="footer-layer2-item footer-background-item" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	opacity="0.5" viewBox="0 0 943 446" enable-background="new 0 0 943 446" xmlSpace="preserve">
 <path fill="#FFFFFF" d="M556.438,49.896v21.528h5.219c0.362,0,0.622,0.069,0.779,0.208c0.156,0.14,0.236,0.324,0.236,0.553
 	c0,0.218-0.08,0.399-0.236,0.543c-0.157,0.146-0.417,0.219-0.779,0.219h-11.959c-0.363,0-0.623-0.072-0.78-0.219
 	c-0.157-0.144-0.235-0.325-0.235-0.543c0-0.229,0.078-0.413,0.235-0.553c0.157-0.139,0.417-0.208,0.78-0.208h5.218V51.998
@@ -1970,8 +1970,8 @@ export const Footer = () => {
 </svg>
           </div>
           <div className="footer-layer3">
-          <svg version="1.1" className="footer-layer3-item footer-background-item" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	opacity="0.2" viewBox="0 0 943 446" enable-background="new 0 0 943 446" xml:space="preserve">
+          <svg version="1.1" className="footer-layer3-item footer-background-item" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	opacity="0.2" viewBox="0 0 943 446" enable-background="new 0 0 943 446" xmlSpace="preserve">
 <path fill="#FFFFFF" d="M556.438,49.896v21.528h5.219c0.362,0,0.622,0.069,0.779,0.208c0.156,0.14,0.236,0.324,0.236,0.553
 	c0,0.218-0.08,0.399-0.236,0.543c-0.157,0.146-0.417,0.219-0.779,0.219h-11.959c-0.363,0-0.623-0.072-0.78-0.219
 	c-0.157-0.144-0.235-0.325-0.235-0.543c0-0.229,0.078-0.413,0.235-0.553c0.157-0.139,0.417-0.208,0.78-0.208h5.218V51.998
@@ -2705,8 +2705,8 @@ export const Footer = () => {
 	c0,0.979,0.138,1.894,0.413,2.74c0.275,0.848,0.591,1.523,0.945,2.025c0.196,0.279,0.46,0.522,0.789,0.728
 	c0.471,0.297,1.001,0.445,1.593,0.445c1.153,0,2.059-0.596,2.717-1.784c0.658-1.189,0.987-2.574,0.987-4.154V407.836z"/>
 </svg>
-    <svg version="1.1" className="footer-layer3-item footer-background-item" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	opacity="0.2" viewBox="0 0 943 446" enable-background="new 0 0 943 446" xml:space="preserve">
+    <svg version="1.1" className="footer-layer3-item footer-background-item" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	opacity="0.2" viewBox="0 0 943 446" enable-background="new 0 0 943 446" xmlSpace="preserve">
 <path fill="#FFFFFF" d="M556.438,49.896v21.528h5.219c0.362,0,0.622,0.069,0.779,0.208c0.156,0.14,0.236,0.324,0.236,0.553
 	c0,0.218-0.08,0.399-0.236,0.543c-0.157,0.146-0.417,0.219-0.779,0.219h-11.959c-0.363,0-0.623-0.072-0.78-0.219
 	c-0.157-0.144-0.235-0.325-0.235-0.543c0-0.229,0.078-0.413,0.235-0.553c0.157-0.139,0.417-0.208,0.78-0.208h5.218V51.998
