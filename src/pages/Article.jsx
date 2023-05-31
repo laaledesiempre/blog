@@ -1,13 +1,18 @@
+import { useParams } from "react-router-dom"
 import "../styles/pages/article.css"
+import { posts } from "../data/datatest"
 
 export const Article = () => {
+    const {id}= useParams()
+    const article= posts.filter(e=>e.id===id)[0]
+    console.log(article)
   return (
     <>
         <section className="main-article">
             <article className="main-article-body">
-            <h1 className="main-title">Example text</h1>
-            <h2 className="main-sub-title">example sub title</h2>
-            <p className="article-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem laudantium, quas quod pariatur odit cum corporis quae magnam magni laborum enim illo amet a minima blanditiis ipsa ea dolore voluptates?</p>
+            <h1 className="main-title">{article.title}</h1>
+            <h2 className="main-sub-title">{article.subtitle}</h2>
+            <p className="article-body">{article.body}</p>
 
             </article>
 

@@ -4,14 +4,16 @@ import {Background} from "./main/Background.jsx"
 import {NumbersBanner} from "./main/NumbersBanner.jsx"
 import {Footer} from "./main/Footer.jsx"
 import { Article } from "../pages/Article.jsx"
-
+import { BrowserRouter, Route,Routes } from "react-router-dom"
 export const App = () => {
   return (
-    <>
+    <BrowserRouter>
     <Background/>
     <Header/>
     <NumbersBanner/>
-    <Article/>
-    </>
+    <Routes>
+      <Route path="/article/:id" Component={Article}/>
+    </Routes>
+    </BrowserRouter>
   )
 }
