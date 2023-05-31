@@ -11,9 +11,15 @@ export const App = () => {
     <Background/>
     <Header/>
     <NumbersBanner/>
+    <main>
     <Routes>
+      <Route path="/" Component={Home}/>
       <Route path="/article/:id" Component={Article}/>
     </Routes>
+    </main>
+
+    <NumbersBanner/>
+
     </BrowserRouter>
   )
 }

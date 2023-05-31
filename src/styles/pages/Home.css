@@ -1,0 +1,26 @@
+.home-wrapper{
+    width:102vw;
+    border: 2px solid var(--pseudo-white); 
+    background-color: var(--darkest-background);
+}
+.welcome{
+    margin:2rem auto;
+}
+.welcome-title{
+    font-size: 10rem;
+    color: var(--pseudo-white);
+    margin-inline-start: 5rem;
+}
+.welcome-title::before{
+    content:">"
+}
+.welcome-title::after{
+    content:"|";
+    animation: 1s titilandum linear infinite;
+}
+.start-reading{
+    font-size:4rem;
+    color:var(--pseudo-white);
+    margin-block:2rem;
+    margin-inline-start:10rem;
+}
