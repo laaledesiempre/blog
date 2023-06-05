@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Lora:ital,wght@0,500;1,500&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +13,8 @@
     --darker-background-transparent: rgba(13, 27, 42,0.8);
     --grey-keys: #415a77;
     --pseudo-white: #e0e1dd;
+    --console-font: 'Inconsolata', monospace;
+    --regular-font: 'Lora', serif;
 }
 @keyframes titilandum{
     from{
