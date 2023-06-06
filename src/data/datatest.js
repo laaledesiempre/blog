@@ -29,3 +29,4 @@ export const posts=[
         body:"lorem ipsum"
     },
 ]
+

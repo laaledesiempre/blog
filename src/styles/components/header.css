@@ -5,8 +5,15 @@
     width:fit-content;
     justify-content: center;
     align-items: center;
-    font-size: 1.5vw;
+    font-size: 2vw;
     column-gap: 0.5rem;
+    position:relative;
+}
+.home-driver{
+    opacity:0;
+    position: absolute;
+    width:100%;
+    height: 100%;
 }
 .title{
     font-size:2.7em;

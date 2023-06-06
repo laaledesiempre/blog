@@ -5,6 +5,7 @@ import {NumbersBanner} from "./main/NumbersBanner.jsx"
 import {Footer} from "./main/Footer.jsx"
 import { Article } from "../pages/Article.jsx"
 import { BrowserRouter, Route,Routes } from "react-router-dom"
+import { Nav } from "./main/Nav.jsx"
 export const App = () => {
   return (
     <BrowserRouter>
@@ -15,6 +16,7 @@ export const App = () => {
     <Routes>
       <Route path="/" Component={Home}/>
       <Route path="/article/:id" Component={Article}/>
+      <Routes path="/test" Component={Nav} />
     </Routes>
     </main>
 

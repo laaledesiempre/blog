@@ -7,7 +7,7 @@ export const NumbersBanner = () => {
     <>
      <div className="bannerwrapper">
   <svg version="1.1" className="numbers-banner-item" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	  viewBox="0 0 1008 92.09" enable-background="new 0 0 1008 92.09" xmlSpace="preserve">
+	  viewBox="0 0 1008 92.09" enableBackground="new 0 0 1008 92.09" xmlSpace="preserve">
 <g>
 	<g>
 		<path fill="#FFFFFF" d="M31.382,27.849c-0.8,0.279-1.434,0.543-1.688,0.791c-0.32,0.403-0.533,0.837-0.533,1.303
@@ -92,7 +92,7 @@ export const NumbersBanner = () => {
 </g>
 </svg>
   <svg version="1.1" className="numbers-banner-item" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	  viewBox="0 0 1008 92.09" enable-background="new 0 0 1008 92.09" xmlSpace="preserve">
+	  viewBox="0 0 1008 92.09" enableBackground="new 0 0 1008 92.09" xmlSpace="preserve">
 <g>
 	<g>
 		<path fill="#FFFFFF" d="M31.382,27.849c-0.8,0.279-1.434,0.543-1.688,0.791c-0.32,0.403-0.533,0.837-0.533,1.303

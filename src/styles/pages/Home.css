@@ -2,14 +2,17 @@
     width:102vw;
     border: 2px solid var(--pseudo-white); 
     background-color: var(--darkest-background);
+    padding: 3rem;
+    margin-block-start:1rem;
 }
 .welcome{
-    margin:2rem auto;
+    margin:0 auto;
 }
 .welcome-title{
-    font-size: 10rem;
+    font-size: 8rem;
     color: var(--pseudo-white);
     margin-inline-start: 5rem;
+    font-family: var(--console-font);
 }
 .welcome-title::before{
     content:">"
@@ -19,8 +22,29 @@
     animation: 1s titilandum linear infinite;
 }
 .start-reading{
-    font-size:4rem;
+    font-size:5rem;
     color:var(--pseudo-white);
     margin-block:2rem;
     margin-inline-start:10rem;
+}
+.article-wrapper{
+    margin: 0 auto;
+    background-color: rgba(10,10,10,0.7);
+    border: 2px solid var(--pseudo-white);
+    width: 80vw;
+    padding:2rem 4rem;
+}
+.article-list-element{
+    font-size:3rem;
+    margin-inline-start: 3rem;
+    list-style-type: none;
+    margin-block: 1rem;
+    text-decoration: none;
+
+}
+.link-on-list{
+    text-decoration:none;
+    text-decoration-line: underline;
+    color: var(--pseudo-white);
+    
 }
