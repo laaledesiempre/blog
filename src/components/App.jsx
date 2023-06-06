@@ -16,7 +16,7 @@ export const App = () => {
     <Routes>
       <Route path="/" Component={Home}/>
       <Route path="/article/:id" Component={Article}/>
-      <Routes path="/test" Component={Nav} />
+      <Route path="/test" Component={Nav} />
     </Routes>
     </main>
 
