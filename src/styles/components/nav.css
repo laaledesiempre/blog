@@ -1,1 +1,41 @@
-{}
+/* button{
+    color: white;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 50%;
+    font-size:2rem;
+    width:7rem;
+    height:7rem;
+  }
+  .nav{
+    position: absolute;
+  }
+  .nav1{
+      position: absolute;
+        z-index:-4;
+    left:10rem;
+      transition: 150ms linear;
+  
+  }
+  .nav2{
+        position: absolute;
+        z-index:-3;
+      left:7.5rem;
+    top:7.5rem;
+            transition: 150ms linear;
+  
+  
+  
+  }
+  .nav3{
+        position: absolute;
+        z-index:-2;
+      top:10rem;
+            transition: 150ms linear;
+  
+  
+  }
+  .hidden{
+    top:0;
+    left:0;
+  } */
