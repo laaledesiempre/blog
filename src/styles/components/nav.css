@@ -1,31 +1,41 @@
-.nav-container{
-  width:5rem;
-  height: 5rem;
-}
-.nav-button{
-  width: 100%;
-  height: 100%;
-  border-radius: 30%;
-}
-.option-wrapper{
-  position: relative;
-}
-.option-element{
-  position: absolute;
-}
-.pos-el-1{
-  top:2rem;
-}
-.pos-el-2{
-  top:1.5rem;
-  left: 1.5rem;
-}
-.pos-el-3{
-  left:2rem;
-}
-.shown{
-  display:block
-}
-.hide{
-  display:none
-}
+/* button{
+    color: white;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 50%;
+    font-size:2rem;
+    width:7rem;
+    height:7rem;
+  }
+  .nav{
+    position: absolute;
+  }
+  .nav1{
+      position: absolute;
+        z-index:-4;
+    left:10rem;
+      transition: 150ms linear;
+  
+  }
+  .nav2{
+        position: absolute;
+        z-index:-3;
+      left:7.5rem;
+    top:7.5rem;
+            transition: 150ms linear;
+  
+  
+  
+  }
+  .nav3{
+        position: absolute;
+        z-index:-2;
+      top:10rem;
+            transition: 150ms linear;
+  
+  
+  }
+  .hidden{
+    top:0;
+    left:0;
+  } */
