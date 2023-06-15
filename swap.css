@@ -5,9 +5,15 @@
   body{
       background-color:black;
   }
-  @keyframes a {
-      100% { transform:translatey(-140vh);  }
+@keyframes a {
+  0%{opacity:0;
+}
+  50%{
+    opacity:1;
   }
+	100% { transform:translatey(-140vh);
+  opacity:0.1}
+}
   .background{
     position:relative;
     overflow:hidden;
