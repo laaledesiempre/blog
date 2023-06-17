@@ -1,41 +1,39 @@
-/* button{
+.navigator{
+  position:fixed;
+  top:80vh;
+  left:5%;
+}
+.nav-button-std{
     color: white;
-    background-color: black;
-    border: 5px solid white;
+    background-color:rgba(0, 0 , 0 , 0.8);
+    border: 2px solid var(--pseudo-white);
     border-radius: 50%;
     font-size:2rem;
     width:7rem;
     height:7rem;
+    transition: 250ms linear;
   }
   .nav{
     position: absolute;
   }
   .nav1{
-      position: absolute;
-        z-index:-4;
-    left:10rem;
-      transition: 150ms linear;
-  
+    position: absolute;
+    z-index:-4;
+    bottom:3rem;
   }
   .nav2{
-        position: absolute;
-        z-index:-3;
-      left:7.5rem;
-    top:7.5rem;
-            transition: 150ms linear;
-  
-  
-  
+    position: absolute;
+    z-index:-3;
+    margin-left:7.5rem;
+    bottom:0.5rem;
   }
   .nav3{
-        position: absolute;
-        z-index:-2;
-      top:10rem;
-            transition: 150ms linear;
-  
-  
+    position: absolute;
+    z-index:-2;
+    margin-left:10rem;
   }
   .hidden{
     top:0;
-    left:0;
-  } */
+    transform: scale(0.8);
+    margin-left:0;
+  }

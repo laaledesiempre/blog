@@ -19,9 +19,8 @@ export const App = () => {
       <Route path="/test" Component={Nav} />
     </Routes>
     </main>
-
-    <NumbersBanner/>
-
+    <Footer/>
+    <Nav/>
     </BrowserRouter>
   )
 }
